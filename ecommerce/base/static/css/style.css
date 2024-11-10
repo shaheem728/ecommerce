@@ -1,0 +1,45 @@
+.card_style{
+    /* width:30vw; */
+    width: 400px;
+    height:70vh;
+    /* background-color: #F0F8FF; */
+    background-color: #ffffdf;
+}
+
+.product-name {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.image{
+    height: 20vh;
+    width: 9vw;
+}
+.box_style{
+    width:30vw;
+    height:70vh
+}
+.contain{
+    height: 1000px;
+}
+
+@media screen and (max-width: 500px){
+  .image{
+    height: 20vh;
+    width: auto;
+  }
+}
+
+ /* product_list */
+@media (max-width: 576px) {
+    .card-title {
+        font-size: 1rem;
+    }
+    .card-text {
+        font-size: 0.9rem;
+    }
+    .card-body {
+        padding: 10px;
+    }
+}
+
