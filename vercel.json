@@ -27,5 +27,6 @@
       "src": "/(.*)",
       "dest": "ecommerce/wsgi.py"
     }
-  ]
+  ],
+  "rewrites"[{"source":"/(.*)","destination":"/"}]
 }
