@@ -1,5 +1,4 @@
 {
-  "version": 2,
   "builds": [
     {
       "src": "ecommerce/wsgi.py",
@@ -27,6 +26,5 @@
       "src": "/(.*)",
       "dest": "ecommerce/wsgi.py"
     }
-  ],
-  "rewrites":[{"source":"/(.*)","destination":"/"}]
+  ]
 }
